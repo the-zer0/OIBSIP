@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navBar{
+    font-weight: 500;
+    background: #111;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    font-size: 25px;
+    opacity: 0;
+}
+.navBar .logo img{
+    height: 100px;
+    width: 200px;
+}
+.navBar .menu{
+     margin-left: 850px;
+    justify-content: space-between;
+    
+}
+.navBar ul li, .logo{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 1px;
+    font-size: 20px;
+    color: #fff;
+}
+.navBar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    margin-left: -450px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.logo span{
+    color: yellow;
+}
+
+/*splash*/
+
+
+#splash {
+        flex-direction: column;
+        position: absolute;
+        display: flex;
+        opacity: 1;
+        font-size: 60px;
+        transition: opacity 1s;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        background: black;
+        text-align: center;
+        
+}
+#splash.fade {
+    opacity: 0;
+}
+
+#navBar.fade {
+    opacity: 1;
+}
+
+
+
+
+
+/*  HOme  */
+.home{
+    background-color: #111;
+    width: 100%;
+    height: 828px;
+    color: #fff;
+    transition: 0.5s alll ease;
+}
+
+.home .container1 .image1 img{
+    left: 0;
+    margin-top: 150px;
+    height: 520px;
+    width: 800px; 
+    transition: 0.5s all ease;
+}
+.home .container1 .image1 img:hover{
+    transform: scale(1.05);
+}
+.home .container1 .text1{
+   width: 1500px;
+   height: 100px;
+}
+.home .container1 .text1 p{
+    margin-left: 850px;
+    margin-top: -350px;
+    font-size: 20px; 
+    line-height: 1.6;
+}
+
+
+
+
+/*  ABOUT */
+.about{
+    background-color: #fff;
+    width: 100%;
+    height: 747px;
+    color: #111;
+    padding: 40px;
+}
+.about .container2{
+    margin-top: 50px;
+}
+.about .title-about{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    align-items: center;
+}
+.about .title-about .line-about{
+    margin-top: 8px;
+    height: 5px;
+    width: 200px;
+    background: black;
+    margin-left: 740px;
+}
+.about .container2 .image2 img{
+    margin-left: 800px;
+    margin-top: -20px;
+    height: 520px;
+    width: 800px; 
+    transition: 0.5s all ease;
+}
+.about .container2 .image2 img:hover{
+    transform: scale(1.05);
+}
+.about .container2 .text2{
+   width: 700px;
+   height: 100px;
+}
+.about .container2 .text2 p{
+    margin-left: 100px;
+    margin-top: -350px;
+    font-size: 20px; 
+    line-height: 1.6;
+}
+
+
+
+/*  TRAINING   */ 
+.training{
+    background-color: #111;
+    width: 100%;
+    height: 1800px;
+    color: #fff;
+    padding: 30px;
+}
+.training .container3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.training .title-training{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    align-items: center;
+}
+.training .title-training .line-training{
+    margin-top: 8px;
+    height: 5px;
+    width: 200px;
+    background: #fff;
+    margin-left: 745px;
+}
+.training .container3 .image3 img{
+    margin-left: 10px;
+    margin-top: -20px;
+    height: 520px;
+    width: 800px; 
+    transition: 0.5s all ease;
+}
+.training .container3 .image3 img:hover{
+    transform: scale(1.05);
+}
+.training .container3 .text3{
+   width: 1400px;
+   height: 100px;
+}
+.training .container3 .text3 p{
+    margin-left: 850px;
+    margin-top: -380px;
+    font-size: 20px; 
+    line-height: 1.6;
+}
+
+
+/* Training Plans */
+
+.training .title-plan{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+    align-items: center;
+    margin-right: 50px;
+}
+.training .line-plan{
+    margin-top: 8px;
+    height: 5px;
+    width: 200px;
+    background: #fff;
+    margin-left: 718px;
+}
+
+
+.training .container3 .plans{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    height: 400px;
+    width: 1400px;
+    text-align: center;
+    align-items: center;
+    margin-left: 115px;
+    margin-top: 200px;
+}
+.training .container3 .plans .plan1{
+    height: 700px;
+    width: 400px;
+    border-radius: 15px;
+    list-style-type: none;
+    transition: 0.5s all ease;
+    border: 2px solid #fff;
+
+}
+.training .container3 .plans .plan1:hover{
+    box-shadow: 10px 10px #fff;
+    /*background: #333;*/
+    transform: scale(1.03);
+
+}
+.training .container3 .plans .plan1 h2{
+    font-size: 35px;
+    margin-top: 50px;
+}
+.training .container3 .plans .plan1 li{
+    list-style: none;
+    line-height: 5;
+    font-size: 25px;
+}
+.training .container3 .plans .plan1 li button{
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    color: #111;
+    transition: 0.3s all ease;
+}
+.training .container3 .plans .plan1 li button:hover{
+    cursor: pointer;
+    background: transparent;
+    border:1px solid #fff ;
+    transform: scale(1.05);
+    color: #fff;
+}
+.training .container3 .plans .plan2{
+    height: 700px;
+    width: 400px;
+    border-radius: 15px;
+    background: transparent;
+    list-style-type: none;
+    transition: 0.5s all ease;
+    border: 2px solid #fff;
+
+
+}
+.training .container3 .plans .plan2:hover{
+    box-shadow: 10px 10px #fff;
+    /*background: #333;*/
+    transform: scale(1.03);
+}
+.training .container3 .plans .plan2 h2{
+    font-size: 35px;
+    margin-top: 50px;
+}
+.training .container3 .plans .plan2 li{
+    list-style: none;
+    line-height: 3.4;
+    font-size: 25px;
+}
+.training .container3 .plans .plan2 li button{
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    color: #111;
+    margin-top: 30px;
+    transition: 0.3s all ease;
+}
+.training .container3 .plans .plan2 li button:hover{
+    cursor: pointer;
+    background: transparent;
+    border:1px solid #fff ;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.training .container3 .plans .plan3{
+    height: 700px;
+    width: 400px;
+    border-radius: 15px;
+    list-style-type: none;
+    transition: 0.5s all ease;
+    border: 2px solid #fff;
+
+}
+.training .container3 .plans .plan3:hover{
+    box-shadow: 10px 10px #fff;
+    /*background: #333;*/
+    transform: scale(1.03);
+
+}
+.training .container3 .plans .plan3 h2{
+    font-size: 35px;
+    margin-top: 50px;
+}
+.training .container3 .plans .plan3 li{
+    list-style: none;
+    line-height: 2.5;
+    font-size: 25px;
+}
+.training .container3 .plans .plan3 li button{
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #111;
+    transition: 0.3s all ease;
+}
+.training .container3 .plans .plan3 li button:hover{
+    cursor: pointer;
+    background: transparent;
+    border:1px solid #fff ;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+
+
+
+
+/* REVIEW  */
+
+
+.review{
+    background-color: #fff;
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+}
+/*DUPLICATE*/
+.review .container4 .title-review1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.review .container4 .title-review .line-review1{
+    height: 5px;
+    width: 222px;
+    background: #fff;
+    margin-left: 648px;
+}
+/* ORIGINAL*/
+.review .container4 .title-review{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1px;
+}
+.review .container4 .title-review .line-review{
+    height: 5px;
+    width: 222px;
+    background: black;
+    margin-left: 730px;
+}
+.review .container4 .line1{
+    display:flex;
+    height: 200px;
+    width: 1400px;
+    padding: 20px;
+    margin-right: 80px;
+    margin-left: 155px;
+    margin-bottom: 100px;
+   
+}
+.review .container4 .line1 .card1{
+    height: 250px;
+    width: 300px;
+    margin-left: 101px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #111;
+    transition: 0.3s all ease;
+    
+}
+.review .container4 .line1 .card1:hover{
+    border: 2px solid #111;
+    box-shadow: 3px 10px 10px 5px #555;
+    transform: scale(1.01);
+}
+.review .container4 .line1 .card1 p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.review .container4 .line1 .card1 img{
+    height: 250px;
+    width: 300px;
+    margin-top: -90px;
+}
+.review .container4 .line1 .card2{
+    height: 250px;
+    width: 300px;
+    margin-left: 101px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #111;
+    transition: 0.3s all ease;
+}
+.review .container4 .line1 .card2:hover{
+    border: 2px solid #111;
+    box-shadow: 3px 10px 10px 5px #555;
+    transform: scale(1.01);
+}
+.review .container4 .line1 .card2 p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.review .container4 .line1 .card2 img{
+    height: 250px;
+    width: 300px;
+    margin-top: -90px;
+}
+.review .container4 .line1 .card3{
+    height: 250px;
+    width: 300px;
+    margin-left: 101px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #111;
+    transition: 0.3s all ease;
+}
+.review .container4 .line1 .card3:hover{
+    border: 2px solid #111;
+    box-shadow: 3px 10px 10px 5px #555;
+    transform: scale(1.01);
+}
+.review .container4 .line1 .card3 p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.review .container4 .line1 .card3 img{
+    height: 250px;
+    width: 300px;
+    margin-top: -90px;
+}
+.review .container4 .line2{
+    display:flex;
+    height: 200px;
+    width: 1400px;
+    padding: 20px;
+    margin-right: 80px;
+    margin-left: 155px;
+    margin-bottom: 100px;
+}
+
+.review .container4 .line2 .card1{
+    height: 250px;
+    width: 300px;
+    margin-left: 101px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #111;
+    transition: 0.3s all ease;
+}
+.review .container4 .line2 .card1:hover{
+    border: 2px solid #111;
+    box-shadow: 3px 10px 10px 5px #555;
+    transform: scale(1.01);
+}
+.review .container4 .line2 .card1 p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.review .container4 .line2 .card1 img{
+    height: 250px;
+    width: 300px;
+    margin-top: -90px;
+}
+.review .container4 .line2 .card2{
+    height: 250px;
+    width: 300px;
+    margin-left: 101px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #111;
+    transition: 0.3s all ease;
+}
+.review .container4 .line2 .card2:hover{
+    border: 2px solid #111;
+    box-shadow: 3px 10px 10px 5px #555;
+    transform: scale(1.01);
+}
+.review .container4 .line2 .card2 p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.review .container4 .line2 .card2 img{
+    height: 250px;
+    width: 300px;
+    margin-top: -90px;
+}
+.review .container4 .line2 .card3{
+    height: 250px;
+    width: 300px;
+    margin-left: 101px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #111;
+    transition: 0.3s all ease;
+}
+.review .container4 .line2 .card3:hover{
+    border: 2px solid #111;
+    box-shadow: 3px 10px 10px 5px #555;
+    transform: scale(1.01);
+}
+.review .container4 .line2 .card3 p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.review .container4 .line2 .card3 img{
+    height: 250px;
+    width: 300px;
+    margin-top: -90px;
+}
+
+/* contact*/
+
+
+.contact{
+    background-color: #111;
+    width: 100%;
+    height: 740px;
+    padding: 60px;
+}
+.contact .title-contact{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    align-items: center;
+    color: #fff;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.contact .title-contact .line-contact{
+    margin-top: 8px;
+    height: 5px;
+    width: 200px;
+    background: #fff;
+    margin-left: 712px;
+}
+.contact .container5{
+    display: flex;   
+}
+.contact .container5 .image4 img{
+    height: 520px;
+    width: 600px;
+    margin-left: 80px;
+}
+.contact .container5 .fields{
+    width: 650px;
+    height: 500px;
+    margin-top: 140px;
+    margin-left: 10px;
+}
+.contact .container5 .fields input{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    background: transparent;
+    margin: 10px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact .container5 .fields textarea{
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    background: transparent;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact .container5 .fields button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s all ease;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.contact .container5 .fields button:hover{
+    transform: scale(1.05);
+    background: #fff;
+    color: #111;
+}
+
+
+.contact .icons{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -50px;
+    display: flex;
+    text-align: center;
+    margin-left: 80px;
+
+}
+.contact .icons i{
+    margin-right: 300px;
+}
+.contact .icons i span{
+    margin-left: 20px;
+}
+/* FOOTER */
+footer{
+    background: #fff;
+    padding: 20px;
+    color: #111;
+    font-weight: 500;
+}
+footer span a{
+    color: red;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
